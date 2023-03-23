@@ -4,7 +4,7 @@ public class StringCompration {
     public static String Compressed(String str){
         String newStr ="";
               //abc 
-        for (int i = 0; i < str.length(); i++) { // T.C//O(n)
+        for (int i = 0; i < str.length(); i++) {  // T.C//O(n)
             Integer count = 1;
             while (i < str.length()-1 && str.charAt(i) == str.charAt(i+1)) {
                 count++;
